@@ -10,19 +10,10 @@
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
     <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" inline>
+    <link href="css/print.css" rel="stylesheet" media="print">
 
-    <script>
-      (function(w,g){w['GoogleAnalyticsObject']=g;
-      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
-
-      // TODO: replace with your Google Analytics profile ID.
-      ga('create', 'UA-XXXX-Y');
-      ga('send', 'pageview');
-    </script>
-    <script src="http://www.google-analytics.com/analytics.js"></script>
-    <script async src="js/perfmatters.js"></script>
+   
   </head>
 
   <body>
@@ -35,6 +26,17 @@
       <div class="hero">
         <strong>Thanks for taking this class!</strong> You are awesome for investing time and energy into your future :) We love making classes for you!
       </div>
+
+      <header>
+            <a href="/"><img src="img/profilepic2.jpg"></a>
+            <p>Pavel Yuhnovich
+                <br><span>Course Attendee</span></p>
+        </header>
+        <div class="container">
+            <div class="hero">
+                <strong>I love web development!</strong> And I also like this course :)
+                <br> Contact me: Pavel_Yukhnovich@epam.com
+            </div>
 
       <div class="content">
         
@@ -52,4 +54,14 @@
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
     </footer>
   </body>
+  <script>
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+
+      // TODO: replace with your Google Analytics profile ID.
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+    </script>
+    <script src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/perfmatters.js"></script>
 </html>
